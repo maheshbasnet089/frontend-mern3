@@ -2,7 +2,7 @@ import { useState } from "react"
 
 // problem k xa tyo herum suru ma , kina useStateuse garne tw ? 
 function Home(){
-    let pi = 3.14
+    // let pi = 3.14
     // let meroNumber = 0 
     // function increaseMeroNumber(){
     //     meroNumber = meroNumber + 1 // meroNumber++
@@ -14,9 +14,10 @@ function Home(){
     // let something = useState(0) // [0,f]
     // let myValue = something[0]
     // let myFunction = something[1]
-    const [pi,setPi] = useState(3.14) // [0,f]
+    const [pi,setPi] = useState(3.14) // [3.14,f]
 
-
+let age = 23 
+ 
   const increaseMyValue = ()=>{
     setNumber(number + 1)
    }
